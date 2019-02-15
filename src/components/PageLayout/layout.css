@@ -1,0 +1,36 @@
+.layout-header {
+  position: fixed;
+  width: 100%;
+  padding: 0 32px;
+  background-color: #fff !important;
+}
+
+.layout-header .app-header-logo {
+  margin-right: 24px;
+}
+
+.layout-header .app-header-content {
+  flex: 1 1 auto;
+}
+
+.layout-inner {
+  padding-top: 64px;
+  height: 100vh;
+}
+
+.layout-sider {
+  /*position: fixed;*/
+  /*left: 0;*/
+  height: 100%;
+  overflow: auto;
+}
+
+.layout-content {
+  padding: 20px;
+  height: 100%;
+  flex: 1 1 auto;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+

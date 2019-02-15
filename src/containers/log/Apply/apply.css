@@ -1,0 +1,13 @@
+.link-btn {
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.remove-trigger {
+  cursor: pointer;
+  transition: transform .3s linear;
+}
+
+.remove-trigger:hover {
+  transform: scale(1.5);
+}

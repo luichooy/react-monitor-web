@@ -1,0 +1,25 @@
+.search-logo {
+  padding-top: 150px;
+  margin-bottom: 32px;
+}
+
+.ant-input-search.ant-input-search-enter-button > .ant-input {
+  padding-right: 130px;
+}
+
+.setting-modal {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.setting-modal .ant-modal {
+  top: 0;
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.setting-modal .ant-modal .ant-modal-content {
+  height: 100%;
+  border-radius: 0;
+}

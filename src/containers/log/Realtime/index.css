@@ -1,0 +1,51 @@
+.realtime-container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+@media (min-width: 992px) {
+  .sider {
+    position: relative !important;
+    transform: none !important;
+  }
+}
+
+.sider-open .sider {
+  transform: none !important;
+}
+
+.sider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 256px;
+  flex-basis: 256px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 0 0 1px #dee2e6;
+  transition: .2s all;
+  transform: translateX(-101%);
+  z-index: 10;
+}
+
+.media {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.media .media-body {
+  flex: 1;
+}
+
+.trigger {
+  transform: rotateZ(90deg);
+  font-size: 150%;
+}
